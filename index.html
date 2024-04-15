@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Samira Vieira</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Samira Vieira</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="alterarMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#sobre" onclick="alterarMenu()">Sobre</a></li>
+                <li><a href="#experiencia" onclick="alterarMenu()">Experiência</a></li>
+                <li><a href="#projetos" onclick="alterarMenu()">Projetos</a></li>
+                <li><a href="#contato" onclick="alterarMenu()">Contato</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="perfil">
+        <div class="section_pic-container">
+            <img src="assets/Avatar.png" alt="Avatar Samira">
+        </div>
+        <div class="section_texto">
+            <p class="section_texto_p1"> Olá, Eu sou</p>
+            <h1 class="titulo">Samira Vieira</h1>
+            <p class="section_texto_p2">Desenvolvedora Full Stack</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/Samira-Vieira.pdf')">
+                    Downlod CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#Contato'">
+                    Contato
+                </button>
+            </div>
+            <div id="sociais-container">
+                <img src="assets/linkedin.png" alt="Meu Perfil LinkedIn" class="icon"
+                    onclick="window.open('https://www.linkedin.com/in/samira-vieira-de-souza')" />
+
+                <img src="assets/github.png" alt="Meu Perfil github" class="icon"
+                    onclick="window.open('https://github.com/Samiihh')" 
+                />
+            </div>
+        </div>
+    </section>
+    <section id="sobre">
+        <p class="section_texto_p1">Conheça Mais</p>
+        <h1 class="titulo">Sobre mim</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="assets/sobre-pic.png" alt="Profile picture" class="sobre-pic">
+            </div>
+            <div class="sobre-detalhes-container">
+                <div class="sobre-container">
+                    <div class="detalhes-container">
+                        <img src="assets/experience.png" alt="experiencia icon" class="icon">
+                        <h3>Experiencias</h3>
+                        <p> 1+ ano <br> Desenvolvimento Web</p>
+                    </div>
+
+                    <div class="detalhes-container">
+                        <img src="assets/education.png" alt="experiencia icon" class="icon">
+                        <h3>Formação</h3>
+                        <p> Tecnologo em <br> desenvolvimento de Sistema</p>
+                    </div>
+                </div>
+                <div class="texto-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum placeat eos dolores? Expedita cum
+                        fugiat, aspernatur assumenda aliquam maxime exercitationem repellat odit consequatur eligendi
+                        earum nam odio id, animi fugit!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Experiencias'">
+    </section>
+    <section id="experiencia">
+        <p class="section_texto_p1"> Explorar mais sobre</p>
+        <h1 class="titulo">Experiência</h1>
+        <div class="experiencias-detalhes-container">
+            <div class="sobre-container">
+                <div class="detalhes-container">
+                    <h2 class="experiencias-sub-titulo">Desenvolvimento front-end</h2>
+                    <div class="artigo-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Com experiência</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Com experiência</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                        <div>
+                            <h3>Bootstrap</h3>
+                            <p>Básico</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="detalhes-container">
+                    <h2 class="experiencias-sub-titulo">Desenvolvimento Back-end</h2>
+                    <div class="artigo-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Com experiência</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>Laravel</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>Banco de Dados</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt=" experiencia icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projetos'"
+      />
+    </section>
+    <section id="projetos">
+        <p class="section_texto_p1">Navegar em meus recentes</p>
+        <h1 class="titulo">Projetos</h1>
+        <div class="experiencias-detalhes-container">
+            <div class="sobre-container">
+                <div class="detalhes-container color-container">
+                    <div class="artigo-container">
+                        <img src="assets/project-1.png" alt="Projeto 1"
+                        class="projeto-img">
+                        <h2 class="experiencias-sub-titulo projetos-titulo">Projeto um</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 projeto-btn"  
+                            onclick="window.open('https://github.com/Samiihh')"> 
+                                Github
+                            </button>
+
+                            <button class="btn btn-color-2 projeto-btn"  
+                            onclick="window.open('https://github.com/Samiihh')"> 
+                               Demonstração
+                            </button>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="detalhes-container color-container">
+                    <div class="artigo-container">
+                        <img src="assets/project-2.png" alt="Projeto 2"
+                        class="projeto-img">
+                        <h2 class="experiencias-sub-titulo projetos-titulo">Projeto Dois</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 projeto-btn"  
+                            onclick="window.open('https://github.com/Samiihh')"> 
+                                Github
+                            </button>
+
+                            <button class="btn btn-color-2 projeto-btn"  
+                            onclick="window.open('https://github.com/Samiihh')"> 
+                               Demonstração
+                            </button>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="detalhes-container color-container">
+                    <div class="artigo-container">
+                        <img src="assets/project-3.png" alt="Projeto 3"
+                        class="projeto-img">
+                        <h2 class="experiencias-sub-titulo projetos-titulo">Projeto três</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 projeto-btn"  
+                            onclick="window.open('https://github.com/Samiihh')"> 
+                                Github
+                            </button>
+
+                            <button class="btn btn-color-2 projeto-btn"  
+                            onclick="window.open('https://github.com/Samiihh')"> 
+                               Demonstração
+                            </button>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Contato'">
+    </section>
+    <section id="contato">
+        <p class="section_texto_p1">Entre em</p>
+        <h1 class="titulo">Contato</h1>
+        <div class="contato-info-up-container">
+            <div class="contato-info-container">
+                <img src="assets/email.png" alt="Email icon" class="icon contato-icon email-icon">
+                <p><a href="mailto:examplemail@gmail.com">samira.v.souza20@gmail.com</a></p>
+            </div>        
+            <div class="contato-info-container">
+                <img src="assets/linkedin.png" alt="linkedin icon"
+                class="icon contato-icon" >
+                <p><a href="https://www.linkedin.com/in/samira-vieira-de-souza">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="nav-links-container">
+            <div class="nav-links">
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Samira Vieira.Todos os direitos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
