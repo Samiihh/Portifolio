@@ -295,12 +295,13 @@ section{
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
-  color: #FFFFFF80;
+  filter: invert(100%);
 }
 
-img .icon {
-  color: white;
+.rede {
+  filter: invert(100%);
 }
+
 
 .detalhes-container {
   padding: 1.5rem;
