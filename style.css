@@ -306,7 +306,7 @@ section{
 .detalhes-container {
   padding: 1.5rem;
   flex: 1;
-  background: whitesmoke;
+  background: rgb(173, 170, 170);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -345,7 +345,7 @@ section{
 
 .artigo-container {
   display: flex;
-  text-align: initial;
+  text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -371,13 +371,14 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: rgb(173, 170, 170);
 }
 
 .projeto-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
 }
 
 .projetos-titulo {
@@ -405,7 +406,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color:rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: rgb(173, 170, 170);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -428,6 +429,7 @@ article .icon {
 .email-icon{
   height: 2.5rem;
 }
+
 
 /* FOOTER SECTION */
 
